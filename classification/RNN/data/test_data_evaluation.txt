@@ -1,0 +1,49 @@
+**************************************** Evaluation results*****************************************
+                                       Precision.       Recall.          f1.            
+                 Addictive Behavior    0.8523           0.8523           0.8523         
+                            Address    0.6667           0.6667           0.6667         
+                                Age    0.9805           0.9869           0.9837         
+                   Alcohol Consumer    0.5556           0.8333           0.6667         
+                Allergy Intolerance    0.8802           0.9552           0.9161         
+                            Bedtime    1.0000           0.5000           0.6667         
+                     Blood Donation    0.6429           0.8182           0.7200         
+                           Capacity    0.6271           0.6607           0.6435         
+           Compliance with Protocol    0.7444           0.8250           0.7826         
+                            Consent    0.9522           0.9192           0.9354         
+                    Data Accessible    0.8182           0.7200           0.7660         
+                             Device    0.5161           0.3478           0.4156         
+                         Diagnostic    0.8133           0.7938           0.8034         
+                               Diet    0.7500           0.6522           0.6977         
+                       Disabilities    1.0000           0.7143           0.8333         
+                            Disease    0.8274           0.8834           0.8545         
+                          Education    0.8571           0.8571           0.8571         
+                          Encounter    0.6842           0.5200           0.5909         
+        Enrollment in other studies    0.9135           0.9713           0.9415         
+                      Ethical Audit    1.0000           1.0000           1.0000         
+                          Ethnicity    1.0000           0.8000           0.8889         
+                           Exercise    0.7500           0.4286           0.5455         
+                             Gender    1.0000           1.0000           1.0000         
+                            Healthy    0.3571           0.3846           0.3704         
+            Laboratory Examinations    0.8134           0.7584           0.7849         
+                    Life Expectancy    0.9310           0.9818           0.9558         
+                           Literacy    0.5000           0.3750           0.4286         
+                           Multiple    0.7149           0.7312           0.7230         
+                    Neoplasm Status    0.5909           0.5909           0.5909         
+         Non-Neoplasm Disease Stage    0.6800           0.5312           0.5965         
+                            Nursing    0.6667           0.3333           0.4444         
+                       Oral related    0.7647           0.6842           0.7222         
+             Organ or Tissue Status    0.8462           0.7333           0.7857         
+   Pharmaceutical Substance or Drug    0.8382           0.8633           0.8506         
+         Pregnancy-related Activity    0.9350           0.9622           0.9484         
+                    Receptor Status    1.0000           0.1111           0.2000         
+                Researcher Decision    0.8395           0.9007           0.8690         
+                    Risk Assessment    0.8711           0.8596           0.8653         
+                     Sexual related    1.0000           0.3846           0.5556         
+                               Sign    0.4151           0.2268           0.2933         
+                     Smoking Status    1.0000           1.0000           1.0000         
+     Special Patient Characteristic    0.4211           0.2105           0.2807         
+                            Symptom    0.6667           0.3600           0.4675         
+                 Therapy or Surgery    0.7979           0.7802           0.7890         
+                                       ---------------  ---------------  ---------------
+                    Overall (micro)    0.8138           0.8138           0.813824       
+                    Overall (macro)    0.7837           0.6925           0.717038
