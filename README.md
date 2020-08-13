@@ -5,7 +5,7 @@
 
 We downloaded the clinical trials registration files from website of Chinese Clinical Trials Registry ([ChiCTR](http://www.chictr.org.cn/)), and extracted the eligibility criteria text, including Chinese inclusion criteria(CIC), English inclusion criteria(EIC), Chinese exclusion criteria(CEC) and English exclusion criteria(EEC). An eligibility criteria example (registration number: [ChiCTR1800016069](http://www.chictr.org.cn/showproj.aspx?proj=27068)) shows below:
 
-| Chinese inclusion criteria                                   | English inclusion criteria                                   |
+| **Chinese inclusion criteria**                               | **English inclusion criteria**                               |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | 1）首次于本中心行肝癌切除术，术后组织病理学证实HCC；<br/>2）术前血清HBsAg（+）；<br/>3）血清HBV-DNA低于检测下限（内标法）；<br/>4）肿瘤未侵犯门静脉、肝静脉或胆管的主要分支；<br/>5）肝功能Child-Pugh A或B级；<br/>6）年龄18～65岁，性别不限；<br/>7）单发肿瘤者，最大径≤5cm；多发肿瘤者，瘤体数≤3个且各瘤体最大径≤3cm； | 1. patient receives hepatectomy of HCC, which was confirmed with pathology;<br/>2. serum HBsAg（+）is confirmed preoperatively;<br/>3. serum HBV-DNA is lower than minimum of detection;<br/>4. tumor did not invade potal vein,hepatic vein or major branch of biliary tract;<br/>5. liver function with Child-Pugh A or B;<br/>6. aged from 18-65 years male or female;<br/>7. single tumor≤5cm.for multiple tumors,number of tumor≤3 and every tumor≤3cm. |
 | **Chinese exclusion criteria**                               | **English exclusion criteria**                               |
