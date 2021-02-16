@@ -19,7 +19,7 @@ We used the agglomerative hierarchical clustering algorithm, works in a “botto
 1. get 19185 Chinese-English eligibility criteria sentences pairs.
 2. get UMLS semantic types of English eligibility criteria sentences using MetaMap.
 3. convert criteria sentences to feature matrix based on UMLS semantic types.
-4. hierarchical clustering and semantic categories induction.
+4. perform hierarchical clustering and summarize semantic categories.
 
 ## classification
 
@@ -38,6 +38,70 @@ To assess the classification capacity of our induced semantic categories used fo
   - BERT
   - ERNIE
 
+classification results:
+
+<table>
+   <tr>
+      <td colspan="2" rowspan="2">Models</td>
+      <td colspan="3">Macro-average</td>
+      <td colspan="3">Micro-average</td>
+   </tr>
+   <tr>
+      <td>precision</td><td>recall</td><td>F1-score</td><td>precision</td><td>recall</td>
+      <td>F1-score</td>
+   </tr>
+   <tr>
+      <td rowspan="4">Machine learning algorithms</td>
+      <td>NB</td>
+      <td>0.5398</td><td>0.7403</td><td>0.5965</td>
+      <td>0.6312</td><td>0.6312</td><td>0.6312</td>
+   </tr>
+   <tr>
+      <td>kNN</td><td>0.7531</td><td>0.6693</td><td>0.6948</td>
+      <td>0.7632</td><td>0.7632</td><td>0.7632</td>
+   </tr>
+   <tr>
+      <td>LR</td>
+      <td>0.8017</td><td>0.7574</td><td>0.7732</td>
+      <td>0.8173</td><td>0.8173</td><td>0.8173</td>
+   </tr>
+   <tr>
+      <td>SVM</td>
+       <td><b>0.8196</b></td><td>0.7712</td><td>0.7899</td>
+      <td>0.8293</td><td>0.8293</td><td>0.8293</td>
+   </tr>
+   <tr>
+      <td rowspan="3">Deep learning algorithms</td>
+      <td>CNN</td>
+      <td>0.8004</td><td>0.6951</td><td>0.7258</td>
+      <td>0.8142</td><td>0.8142</td><td>0.8142</td>
+   </tr>
+   <tr>
+      <td>RNN</td>
+      <td>0.7837</td><td>0.6925</td><td>0.7170</td>
+      <td>0.8138</td><td>0.8138</td><td>0.8138</td>
+   </tr>
+   <tr>
+      <td>FastText</td>
+      <td>0.7645</td><td>0.7188</td><td>0.7341</td>
+      <td>0.8182</td><td>0.8182</td><td>0.8182</td>
+   </tr>
+   <tr>
+      <td rowspan="2">Pre-trained language models</td>
+      <td>BERT</td>
+      <td>0.7994</td><td>0.8023</td><td>0.7958</td>
+      <td>0.8447</td><td>0.8447</td><td>0.8447</td>
+   </tr>
+   <tr>
+      <td>ERNIE</td>
+       <td>0.7964</td><td><b>0.8074</b></td><td><b>0.7980</b></td>
+       <td><b>0.8484</b></td><td><b>0.8484</b></td><td><b>0.8484</b></td>
+   </tr>
+</table>
+
+we also organized a shared task on [fifth China Conference on Health Information Processing (CHIP 2019)](https://github.com/zonghui0228/chip2019task3). As organizers, we released our labeled data and defined 44 categories. A total 75 teams participated in the task and 27 of them submitted results. The best performing system achieved a macro F1 score of **0.81** by applied multiple pre-trained language models and ensemble modeling.
+
 ## Contacts
+
 Zong Hui, Tongji University, Shanghai, 200092, China, [zonghui@tongji.edu.cn](mailto:zonghui@tongji.edu.cn)
 
