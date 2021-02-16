@@ -133,6 +133,7 @@ clustering/**/*.json
 clustering/**/*.csv
 clustering/**/*.txt
 clustering/**/*.xlsx
+clustering/**/*.py
 
 # classification folder
 classification/kNN/evaluation.py
