@@ -167,8 +167,7 @@ classification/fastText/evaluation.py
 classification/fastText/criteria.train
 classification/fastText/criteria.test
 classification/fastText/fastText_criteria.bin
-classification/fastText/fasttext_eva_rst.bin
-classification/fastText/fasttest_test_pred.txt
+classification/fastText/*.txt
 
 classification/ERNIE/evaluation.py
 classification/ERNIE/best_model_state.bin
