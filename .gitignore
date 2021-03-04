@@ -136,6 +136,9 @@ clustering/**/*.xlsx
 clustering/**/*.py
 
 # classification folder
+classification/data/train_.txt
+classification/data/test_.txt
+
 classification/kNN/evaluation.py
 classification/kNN/*.mkl
 classification/kNN/*.txt
