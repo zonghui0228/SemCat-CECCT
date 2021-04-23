@@ -14,7 +14,7 @@ We downloaded the clinical trials registration files from website of Chinese Cli
 The eligibility criteria text is organized with multiple sentences. After sentence segmentation and filter, we randomly selected 19185 sentences used in the unsupervised hierarchical clustering section for criteria categories induction, and 38341 sentences used in supervised criteria classification section for the classification capacity validation of induced semantic categories.
 
 ## clustering
-We used the agglomerative hierarchical clustering algorithm, works in a “bottom-up” manner, to cluster constructed semantic feature matrix and generated clusters based on criteria sentences similarity. The package ‘scikit-learn’ of Python was applied for the clustering section.
+We used the agglomerative hierarchical clustering algorithm, works in a “bottom-up” manner, to cluster constructed semantic feature matrix and generated clusters based on criteria sentences similarity..
 
 1. get 19185 Chinese-English eligibility criteria sentences pairs.
 2. get UMLS semantic types of English eligibility criteria sentences using MetaMap.
@@ -101,7 +101,13 @@ classification results:
 
 we also organized a shared task on [fifth China Conference on Health Information Processing (CHIP 2019)](https://github.com/zonghui0228/chip2019task3). As organizers, we released our labeled data and defined 44 categories. A total 75 teams participated in the task and 27 of them submitted results. The best performing system achieved a macro F1 score of **0.81** by applied multiple pre-trained language models and ensemble modeling.
 
+## How to cite
+
+Zong, H., Yang, J., Zhang, Z. *et al.* Semantic categorization of Chinese eligibility criteria in clinical trials using machine learning methods. *BMC Med Inform Decis Mak* **21,** 128 (2021). https://doi.org/10.1186/s12911-021-01487-w
+
 ## Contacts
 
-Zong Hui, Tongji University, Shanghai, 200092, China, [zonghui@tongji.edu.cn](mailto:zonghui@tongji.edu.cn)
+Zong Hui , [zonghui@tongji.edu.cn](mailto:zonghui@tongji.edu.cn)
+
+Tongji University, Shanghai, 200092, China
 
