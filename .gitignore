@@ -129,11 +129,12 @@ dmypy.json
 .pyre/
 
 # clustering folder
-clustering/**/*.json
-clustering/**/*.csv
-clustering/**/*.txt
-clustering/**/*.xlsx
-clustering/**/*.py
+# clustering/**/*.json
+# clustering/**/*.csv
+# clustering/**/*.txt
+# clustering/**/*.xlsx
+# clustering/**/*.py
+
 
 # classification folder
 classification/data/train_.txt
